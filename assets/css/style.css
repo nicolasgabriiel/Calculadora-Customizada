@@ -14,3 +14,12 @@ header{
     align-items: center;
 }
 /*          M A I N        */
+main{
+    background-color: white;
+    border-radius: 20px;
+}
+.centralizar{
+    width: 85%;
+    margin: 0 auto;
+    background-color: red;
+}

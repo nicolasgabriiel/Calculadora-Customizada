@@ -4,7 +4,7 @@
 ### Planejamento de projeto
 
 - [X] Estrutuar Header
-- [ ] Customizar Header e Background
+- [X] Customizar Header e Background
 - [ ] Importar Fonte
 - [ ] Estrutuar bill
 - [ ] Customizar bill

@@ -7,7 +7,7 @@
 - [X] Customizar Header e Background
 - [X] Importar Fonte
 - [X] Estrutuar bill
-- [ ] Customizar bill
+- [x] Customizar bill
 - [ ] Estrutuar select tip
 - [ ] Customizar select tip
 - [ ] Estrutuar number people

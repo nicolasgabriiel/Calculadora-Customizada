@@ -5,7 +5,7 @@
 
 - [X] Estrutuar Header
 - [X] Customizar Header e Background
-- [ ] Importar Fonte
+- [X] Importar Fonte
 - [ ] Estrutuar bill
 - [ ] Customizar bill
 - [ ] Estrutuar select tip

@@ -10,8 +10,8 @@
 - [x] Customizar bill
 - [x] Estrutuar select tip
 - [x] Customizar select tip
-- [ ] Estrutuar number people
-- [ ] Customizar number people
+- [x] Estrutuar number people
+- [x] Customizar number people
 - [ ] Estrutuar total
 - [ ] Customizar total
 - [ ] Favicon e titulo

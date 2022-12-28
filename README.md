@@ -13,5 +13,5 @@
 - [x] Estrutuar number people
 - [x] Customizar number people
 - [x] Estrutuar total
-- [ ] Customizar total
+- [x] Customizar total
 - [ ] Favicon e titulo

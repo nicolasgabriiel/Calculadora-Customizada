@@ -17,6 +17,7 @@ header{
 main{
     background-color: white;
     border-radius: 20px;
+    padding-bottom: 20px;
 }
 .centralizar{
     width: 85%;
@@ -87,4 +88,48 @@ label{
 /* Section three */
 .section-one .person{
     right: 140px;
+}
+/* Section Four */
+.section-four{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 12% 5% 8% 5%;
+    background-color: #00474B;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.section-four .container-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.section-four .container-linha .container-collum{
+    display: flex;
+    flex-direction: column;
+}
+.section-four h3{
+    color: white;
+    font-size: .9rem;
+}
+.section-four p{
+    font-size: .7rem;
+    color: #73A7B2;
+
+}
+.section-four h2{
+    font-size: 1.5rem;
+    color: #30C2AF;
+}
+.section-four button{
+    padding: 10px 0;
+    background-color: #30C2AF;
+    border-radius: 5px;
+    color: #00474B;
+    border: none;
+    box-shadow: 1px 1px 5px 1px #00473B;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
 }

@@ -8,9 +8,10 @@
 - [X] Importar Fonte
 - [X] Estrutuar bill
 - [x] Customizar bill
-- [ ] Estrutuar select tip
+- [x] Estrutuar select tip
 - [ ] Customizar select tip
 - [ ] Estrutuar number people
 - [ ] Customizar number people
 - [ ] Estrutuar total
 - [ ] Customizar total
+- [ ] Favicon e titulo

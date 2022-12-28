@@ -29,6 +29,7 @@ label{
     font-size: .9rem;
     color: #6A7674;
 }
+/* Section one */
 .section-one img{
     position: relative;
     top: 32px;
@@ -43,4 +44,43 @@ label{
     outline: 0;
     border-radius: 5px;
     padding-left: 50px;
+    box-shadow: 1px 1px 5px 1px #cccccc;
+}
+/* Section two */
+.container-buttons{
+    display: flex;  
+    justify-content: space-between;
+}
+.coluna1, .coluna2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.coluna2 {
+   align-items: flex-end;
+}
+.container-buttons button{
+    width: 90%;
+    margin: 2%;
+    padding: 5%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background-color: #00474B;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 1px #cccccc;
+}
+.container-buttons input{
+    width: 80%;
+    text-align: center;
+    margin: 2%;
+    padding: 5%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: black;
+    border: none;
+    background-color: #F3F8FB;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 1px #cccccc;
 }

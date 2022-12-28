@@ -9,7 +9,7 @@
 - [X] Estrutuar bill
 - [x] Customizar bill
 - [x] Estrutuar select tip
-- [ ] Customizar select tip
+- [x] Customizar select tip
 - [ ] Estrutuar number people
 - [ ] Customizar number people
 - [ ] Estrutuar total

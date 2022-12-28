@@ -12,6 +12,6 @@
 - [x] Customizar select tip
 - [x] Estrutuar number people
 - [x] Customizar number people
-- [ ] Estrutuar total
+- [x] Estrutuar total
 - [ ] Customizar total
 - [ ] Favicon e titulo

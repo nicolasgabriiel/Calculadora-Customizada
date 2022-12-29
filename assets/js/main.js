@@ -11,3 +11,18 @@ inputInsert.addEventListener('input', event => {
     console.log(inputValue)
 })
 
+// Recebendo os valores da Section 2
+
+let allButtons = document.querySelectorAll('.buttonsvalue')
+
+let porcentagemGorjeta;
+
+for(let i = 0; i < allButtons.length; i++){
+
+allButtons[i].addEventListener('click', (elemento) => {
+    
+    porcentagemGorjeta = parseFloat(elemento.target.value)
+})
+
+}
+

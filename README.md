@@ -17,9 +17,11 @@
 - [x] Favicon e titulo
 - [X] Remover aba do input
 - [x] Receber os inputs da section one
-- [ ] Receber os inputs da section two
+- [x] Receber buttons da section two
+- [ ] Criar Lógica pra aplicar aparencia
+- [ ] Criar Lógica pra remover a aparência
+- [ ] Receber o custon da section two
 - [ ] Receber os inputs da section three
-- [ ] Receber os inputs da section four
 - [ ] Criar Lógica do Resultado
 - [ ] Adicionar Resultado na tela
 - [ ] Recebendo elemento reset

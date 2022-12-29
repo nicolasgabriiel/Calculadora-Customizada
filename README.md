@@ -19,7 +19,7 @@
 - [x] Receber os inputs da section one
 - [x] Receber buttons da section two
 - [x] Criar Lógica pra aplicar aparencia
-- [ ] Criar Lógica pra remover a aparência
+- [x] Criar Lógica pra remover a aparência
 - [ ] Receber o custon da section two
 - [ ] Receber os inputs da section three
 - [ ] Criar Lógica do Resultado

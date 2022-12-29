@@ -22,7 +22,7 @@
 - [x] Criar Lógica pra remover a aparência
 - [x] Receber o custon da section two
 - [x] Receber os inputs da section three
-- [ ] Criar Lógica do Resultado
-- [ ] Adicionar Resultado na tela
-- [ ] Recebendo elemento reset
-- [ ] Criando a Lógica Reset
+- [x] Criar Lógica do Resultado
+- [x] Adicionar Resultado na tela
+- [x] Recebendo elemento reset
+- [x] Criando a Lógica Reset

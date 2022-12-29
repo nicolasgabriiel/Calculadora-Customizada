@@ -18,7 +18,7 @@
 - [X] Remover aba do input
 - [x] Receber os inputs da section one
 - [x] Receber buttons da section two
-- [ ] Criar Lógica pra aplicar aparencia
+- [x] Criar Lógica pra aplicar aparencia
 - [ ] Criar Lógica pra remover a aparência
 - [ ] Receber o custon da section two
 - [ ] Receber os inputs da section three

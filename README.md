@@ -16,7 +16,7 @@
 - [x] Customizar total
 - [x] Favicon e titulo
 - [X] Remover aba do input
-- [ ] Receber os inputs da section one
+- [x] Receber os inputs da section one
 - [ ] Receber os inputs da section two
 - [ ] Receber os inputs da section three
 - [ ] Receber os inputs da section four

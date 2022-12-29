@@ -14,4 +14,13 @@
 - [x] Customizar number people
 - [x] Estrutuar total
 - [x] Customizar total
-- [ ] Favicon e titulo
+- [x] Favicon e titulo
+- [X] Remover aba do input
+- [ ] Receber os inputs da section one
+- [ ] Receber os inputs da section two
+- [ ] Receber os inputs da section three
+- [ ] Receber os inputs da section four
+- [ ] Criar Lógica do Resultado
+- [ ] Adicionar Resultado na tela
+- [ ] Recebendo elemento reset
+- [ ] Criando a Lógica Reset

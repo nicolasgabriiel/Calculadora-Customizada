@@ -6,6 +6,15 @@ body{
     height: 100vh;
     font-size: 20px;
 }
+/* Retira a funcionalidade do type number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
 /*       H E A D E R       */
 header{
     height: 15%;

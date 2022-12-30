@@ -12,9 +12,6 @@ input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
-input[type=number] {
-    -moz-appearance: textfield;
-}
 /*       H E A D E R       */
 header{
     height: 15%;
@@ -47,7 +44,7 @@ label{
     z-index: 999;
 }
 .section-one input{
-    width: calc(96.5% - 70px);
+    width: calc(99.5% - 70px);
     height: 30px;
     background-color: #F3F8FB;
     border: 0;
@@ -86,6 +83,9 @@ label{
     background-color: #00474B;
     border-radius: 8px;
     box-shadow: 1px 1px 5px 1px #cccccc;
+}
+button:hover{
+    cursor: pointer;
 }
 .container-buttons input{
     width: 80%;
@@ -147,4 +147,53 @@ label{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1rem;
+}
+
+/*          R E S P O N S I V E         */
+
+@media screen and (min-width: 1008px) {
+    header{
+        height: 25%;
+    }
+    main{
+        background-color: white;
+        border-radius: 20px;
+        width: 900px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        padding: 30px 30px 60px 30px;
+    }
+    .container-left{
+        width: 50%;
+        height: 100%;
+    }
+    .container-right{
+        width: 50%;
+    }
+    section{
+        scale: 1.1;
+    }
+    .section-one input{
+        height: 40px;
+    }
+    .section-one img{
+        top: 44px;
+    }
+    label{
+        display: inline-block;
+        padding: 35px 0 12px 20px ;
+    }
+    .section-four{
+        padding-top: 80px;
+    }
+    .section-four h2{
+        font-size: 3rem;
+        color: #30C2AF;
+    }
+    .section-four button{
+        padding: 10px 0;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
 }

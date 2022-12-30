@@ -20,60 +20,61 @@
    
     <!--            Main            -->
     <main>
-        
-        <section class="section-one centralizar" >
-            <label>Bill</label>
-            <img src="assets/images/icon-dollar.svg" alt="">
-            <input  type="number" id="insert">
-        </section><!--section one-->
+        <div class="container-left">
+            <section class="section-one centralizar" >
+                <label>Bill</label>
+                <img src="assets/images/icon-dollar.svg" alt="">
+                <input  type="number" id="insert">
+            </section><!--section one-->
 
-        <section class="section-two centralizar" >
-            <label>Select Tip %</label>
-            <div class="container-buttons">
-                
-                <div class="coluna1"> 
-                    <Button type="button" class="buttonsvalue" value="0.05">5%</Button>
-                    <Button type="button" class="buttonsvalue" value="0.15">15%</Button>
-                    <Button type="button" class="buttonsvalue" value="0.50">50%</Button>
-                </div><!--coluna 1-->
+            <section class="section-two centralizar" >
+                <label>Select Tip %</label>
+                <div class="container-buttons">
                     
-                <div class="coluna2">
-                    <Button type="button" class="buttonsvalue" value="0.10">10%</Button>
-                    <Button type="button" class="buttonsvalue" value="0.25">25%</Button>
-                    <input type="number" placeholder="Custom" id="custom">
-                </div><!--coluna 2-->
+                    <div class="coluna1"> 
+                        <Button type="button" class="buttonsvalue" value="0.05">5%</Button>
+                        <Button type="button" class="buttonsvalue" value="0.15">15%</Button>
+                        <Button type="button" class="buttonsvalue" value="0.50">50%</Button>
+                    </div><!--coluna 1-->
+                        
+                    <div class="coluna2">
+                        <Button type="button" class="buttonsvalue" value="0.10">10%</Button>
+                        <Button type="button" class="buttonsvalue" value="0.25">25%</Button>
+                        <input type="number" placeholder="Custom" id="custom">
+                    </div><!--coluna 2-->
+                
+                </div><!--container buttons-->
+            </section><!--section two-->
+
+            <section class="section-one centralizar" >
+                <label>Number of People</label>
+                <img src="assets/images/icon-person.svg" alt="" class="person">
+                <input  type="number" id="person">
+            </section><!--section three-->
+        </div><!--container left-->
+        <div class="container-right">
+            <section class="section-four centralizar">
+                
+                <div class="container-linha">
+                    <div class="container-collum">
+                        <h3>Tip Amount</h3>
+                        <p>/ Person</p>
+                    </div>
+                    <h2 id="gorjeta">$0.00</h2>
+                </div><!--container linha -->
+
+                <div class="container-linha">
+                    <div class="container-collum">
+                        <h3>Total</h3>
+                        <p>/ Person</p>
+                    </div>
+                    <h2 id="total">$0.00</h2>
+                </div><!--container linha -->
             
-            </div><!--container buttons-->
-        </section><!--section two-->
+                <button type="reset" id="reset">Reset</button>
 
-        <section class="section-one centralizar" >
-            <label>Number of People</label>
-            <img src="assets/images/icon-person.svg" alt="" class="person">
-            <input  type="number" id="person">
-        </section><!--section three-->
-
-        <section class="section-four centralizar">
-            
-            <div class="container-linha">
-                <div class="container-collum">
-                    <h3>Tip Amount</h3>
-                    <p>/ Person</p>
-                </div>
-                <h2 id="gorjeta">$0.00</h2>
-            </div><!--container linha -->
-
-            <div class="container-linha">
-                <div class="container-collum">
-                    <h3>Total</h3>
-                    <p>/ Person</p>
-                </div>
-                <h2 id="total">$0.00</h2>
-            </div><!--container linha -->
-        
-            <button type="reset" id="reset">Reset</button>
-
-        </section><!-- Sectior four -->
-
+            </section><!-- Sectior four -->
+        </div><!--container-rigth-->
 
     </main>
     <script src="assets/js/main.js"></script>

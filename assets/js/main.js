@@ -1,19 +1,20 @@
 // Recebendo o valor do input inicial
 const inputInsert = document.getElementById('insert')
 
-let inputValue;
+let inputValue = 0;
 
 inputInsert.addEventListener('input', event => {
     inputValue = event.target.value.trim()
 
     inputValue = parseFloat(inputValue)
+    gerandoTotal()
 })
 
 // Recebendo os valores da Section 2
 
 const allButtons = document.querySelectorAll('.buttonsvalue')
 
-let porcentagemGorjeta;
+let porcentagemGorjeta = 0;
 
 for(let i = 0; i < allButtons.length; i++){
 
@@ -24,10 +25,11 @@ allButtons[i].addEventListener('click', (elemento) => {
     elemento.target.style.backgroundColor = "#26C2AD"
     elemento.target.style.color = "#00484E"
     inputCustom.value = ""
+    gerandoTotal()
 })
 }
 const inputCustom = document.getElementById('custom')
-let customValue;
+let customValue = 0;
 
 inputCustom.addEventListener('input', event => {
     despressionando()
@@ -36,6 +38,8 @@ inputCustom.addEventListener('input', event => {
     customValue = parseFloat(customValue)
 
     porcentagemGorjeta = customValue / 100
+
+    gerandoTotal()
 
 })
 // função que desativa toda a coloração de botões pressionados
@@ -47,7 +51,7 @@ for(let i = 0; i < allButtons.length; i++){
 
 // Recebendo o valor de quantas pessoas são pra pagar a conta 
 const inputPerson = document.getElementById('person')
-let PersonValue;
+let PersonValue = 1;
 
 inputPerson.addEventListener('input', event => {
     PersonValue = event.target.value.trim()
@@ -78,8 +82,11 @@ const buttonReset = document.getElementById('reset')
 buttonReset.addEventListener('click', () => {
     despressionando()
     inputCustom.value = ""
+    porcentagemGorjeta = 0
     inputPerson.value = ""
+    PersonValue = 1
     inputInsert.value = ""
+    inputValue = 0
     InserirTotal.innerHTML = "$00.00"
     InserirGorjeta.innerHTML = "$00.00"
 })

@@ -94,7 +94,7 @@ label{
     padding: 5%;
     font-size: 1.3rem;
     font-weight: 700;
-    color: black;
+    color: #00474B;
     border: none;
     background-color: #F3F8FB;
     border-radius: 8px;
@@ -139,9 +139,9 @@ label{
 }
 .section-four button{
     padding: 10px 0;
-    background-color: #30C2AF;
+    background-color: #0C686D;
     border-radius: 5px;
-    color: #00474B;
+    color: #045D63;
     border: none;
     box-shadow: 1px 1px 5px 1px #00473B;
     text-transform: uppercase;

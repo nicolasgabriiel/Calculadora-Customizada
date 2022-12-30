@@ -27,3 +27,4 @@
 - [x] Recebendo elemento reset
 - [x] Criando a Lógica Reset
 - [x] Melhorar toda a lógica da calculadora
+- [x] Verificador do reset

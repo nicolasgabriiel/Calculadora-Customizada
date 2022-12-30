@@ -8,6 +8,7 @@ inputInsert.addEventListener('input', event => {
 
     inputValue = parseFloat(inputValue)
     gerandoTotal()
+    console.log(inputValue)
 })
 
 // Recebendo os valores da Section 2
@@ -74,6 +75,15 @@ gorjeta = (inputValue * porcentagemGorjeta) / PersonValue
 InserirGorjeta.innerHTML = "$" + gorjeta.toFixed(2)
 InserirTotal.innerHTML = "$" + valorTotal.toFixed(2)
 
+if(InserirTotal.innerText !== "$0.00"){
+    buttonReset.style.backgroundColor = "#30C2AF"
+    buttonReset.style.color = "00474B"
+}
+if(InserirTotal.innerText === "$0.00"){
+    buttonReset.style.backgroundColor = "#0C686D"
+    buttonReset.style.color = "045D63"
+}
+
 }
 
 // Gerando Reset
@@ -87,6 +97,12 @@ buttonReset.addEventListener('click', () => {
     PersonValue = 1
     inputInsert.value = ""
     inputValue = 0
-    InserirTotal.innerHTML = "$00.00"
-    InserirGorjeta.innerHTML = "$00.00"
+    InserirTotal.innerHTML = "$0.00"
+    InserirGorjeta.innerHTML = "$0.00"
 })
+
+// Verificar o Reset
+
+if(InserirTotal.innerText !== "$0.00"){
+    buttonReset.style.backgroundColor = "red"
+}

@@ -15,7 +15,7 @@ Esta é uma solução para o desafio [Tip calculator app](https://www.frontendme
 
 ## Resumo
 
-O desafio é construir o projeto e deixá-lo o mais próximo possível do design oferecido. Podendo usar qualquer ferramenta para ajudar a concluir o desafio. O objetivo é desenvolver uma calculadora de gorjetas onde o úsuario insere o valor do pedido, a porcentagem da gorjeta e a quantidade de pessoas que irá pagar, assim o programa pega todas as informção e disponibiliza pro úsuario o valor da gorjeta por pessoa e o valor total por pessoa. 
+O desafio é construir o projeto e deixá-lo o mais próximo possível do design oferecido. Podendo usar qualquer ferramenta para ajudar a concluir o desafio. O objetivo é desenvolver uma calculadora de gorjetas onde o úsuario insere o valor do pedido, a porcentagem da gorjeta e a quantidade de pessoas que irá pagar, assim o programa pega todas as informações e disponibiliza pro úsuario o valor da gorjeta por pessoa e o valor total por pessoa. 
 
 
 ### Desafio
@@ -43,12 +43,12 @@ O site deveria ter uma boa usabilidade, um design fiel ao oferecido, e oferecer 
 
 ------
 <p align="center"> Página inicial responsiva
-    <img width="400px" src="assets/readme/image3.png"></img>
+    <img width="300px" src="assets/readme/image3.png" style="display:block"></img>
 </p>
 
 ------
 <p align="center"> Página inicial responsiva em funcionamento
-    <img width="400px" src="assets/readme/image4.png"></img>
+    <img width="300px" src="assets/readme/image4.png" style="display:block"></img>
 </p>
 
 

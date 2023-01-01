@@ -72,8 +72,8 @@ let gorjeta;
 valorTotal = (inputValue + (inputValue * porcentagemGorjeta)) / PersonValue
 gorjeta = (inputValue * porcentagemGorjeta) / PersonValue
 
-InserirGorjeta.innerHTML = "$" + gorjeta.toFixed(2)
-InserirTotal.innerHTML = "$" + valorTotal.toFixed(2)
+InserirGorjeta.innerText = "$" + gorjeta.toFixed(2)
+InserirTotal.innerText = "$" + valorTotal.toFixed(2)
 
 if(InserirTotal.innerText !== "$0.00"){
     buttonReset.style.backgroundColor = "#30C2AF"

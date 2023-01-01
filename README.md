@@ -26,30 +26,30 @@ O site deveria ter uma boa usabilidade, um design fiel ao oferecido, e oferecer 
 -Design Responsivo<br>
 -Inputs para inserir informações<br>
 -Botões para selecionar informações<br>
--Lógica de calculo<br>
+-Lógica de cálculo<br>
 -Exibir o resultado na tela<br>
 
 
 ### Screenshots
 
-<p align="center"> Página inicial 
-    <img width="768px" src="assets/readme/image1.png"></img>
-</p>
+<p align="center"> Página inicial </p>
+  <div align="center">   <img width="768px" src="assets/readme/image1.png"></img> </div>
+
 
 ------
-<p align="center"> Página inicial em funcionamento
-    <img width="768px" src="assets/readme/image2.png"></img>
-</p>
+<p align="center"> Página inicial em funcionamento</p>
+ <div align="center">    <img width="768px" src="assets/readme/image2.png"></img> </div>
+
 
 ------
-<p align="center"> Página inicial responsiva
-    <img width="300px" src="assets/readme/image3.png" style="display:block"></img>
-</p>
+<p align="center"> Página inicial responsiva</p>
+ <div align="center">  <img width="300px" src="assets/readme/image3.png"></img> </div>
+
 
 ------
-<p align="center"> Página inicial responsiva em funcionamento
-    <img width="300px" src="assets/readme/image4.png" style="display:block"></img>
-</p>
+<p align="center"> Página inicial responsiva em funcionamento</p>
+   <div align="center"> <img width="300px" src="assets/readme/image4.png" ></img></div>
+
 
 
 ### Link: https://nicolasgabriiel.github.io/Calculadora-Customizada/
@@ -65,7 +65,7 @@ O site deveria ter uma boa usabilidade, um design fiel ao oferecido, e oferecer 
 ### Principais coisas que aprendi
 
 
- Retira a funcionalidade do type number 
+ Retirar a funcionalidade do type number 
 
 ```css
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
@@ -106,7 +106,7 @@ inputPerson.addEventListener('input', () => {})
 
 </div>
 
-
+- [x] Planejar Projeto
 - [X] Estrutuar Header
 - [X] Customizar Header e Background
 - [X] Importar Fonte

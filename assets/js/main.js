@@ -57,7 +57,6 @@ let PersonValue = 1;
 inputPerson.addEventListener('input', event => {
     PersonValue = event.target.value.trim()
     PersonValue = parseInt(PersonValue)
-
     gerandoTotal()
 })
 
